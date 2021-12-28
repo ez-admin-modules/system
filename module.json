@@ -1,0 +1,15 @@
+{
+    "name": "System",
+    "alias": "system",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "EzAdmin\\Modules\\System\\Providers\\SystemServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
+
+

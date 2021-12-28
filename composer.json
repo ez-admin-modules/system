@@ -1,0 +1,25 @@
+{
+    "name": "ez-admin-modules/system",
+    "description": "系统基础",
+    "authors": [
+        {
+            "name": "Sirius",
+            "email": "707759383@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EzAdmin\\Modules\\System\\Providers\\SystemServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "EzAdmin\\Modules\\System\\": ""
+        }
+    }
+}
