@@ -3,9 +3,9 @@
 use EzAdmin\Modules\System\Http\Controllers\Api\Admin\V1\ConfigController;
 use EzAdmin\Modules\System\Http\Controllers\Api\Admin\V1\UploadController;
 
-Route::prefix('system')->name('system.')->group(function () {
+Route::prefix('system')->group(function () {
     // 上传
-    Route::prefix('upload')->name('upload.')->group(function () {
+    Route::prefix('upload')->group(function () {
         Route::post('image', [UploadController::class, 'image']);
     });
     // 配置
